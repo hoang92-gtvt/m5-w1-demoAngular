@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+export interface Pet{
+  name?: String;
+  image?: String;
+}
+
 
 @Component({
   selector: 'app-hoang',

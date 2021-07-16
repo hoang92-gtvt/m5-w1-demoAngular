@@ -7,13 +7,15 @@ import { HoangComponent } from './hoang/hoang.component';
 import { FontSizeEditorComponent } from './font-size-editor/font-size-editor.component';
 import { FontSizeEditor2Component } from './font-size-editor2/font-size-editor2.component';
 import { FormsModule } from '@angular/forms';
+import { PetComponent } from './pet/pet.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HoangComponent,
     FontSizeEditorComponent,
-    FontSizeEditor2Component
+    FontSizeEditor2Component,
+    PetComponent
   ],
   imports: [
     BrowserModule,
